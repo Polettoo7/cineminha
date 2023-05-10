@@ -1,0 +1,58 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.container-card{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 250px;
+    height: 485px;
+    padding: 16px;
+    background-color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.title{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.img-filme{
+    width: 90%;
+    height: 320px;
+    margin-bottom: 12px;
+}
+
+.btn-comprar{
+    width: 90%;
+    border: none;
+    font-size: 14px;
+    height: 40px;
+    background-color:rgb(59, 119, 247);
+    transition: .2s;
+}
+
+.btn-comprar:hover{
+    background-color: rgb(0, 0, 27);
+    cursor: pointer;
+}
+
+
